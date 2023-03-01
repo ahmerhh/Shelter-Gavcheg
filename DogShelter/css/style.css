@@ -4,10 +4,9 @@
 body {
     color: #777777;
     font-weight: 500;
-    background: #ffffff;
+    background: #ffffff; 
     font-family: 'Quicksand', sans-serif;
 }
-
 h1,
 h2, 
 h3, 
@@ -880,6 +879,12 @@ a:focus {
     margin-left: -15px;
     margin-right: -15px;
 }
+ 
+/* .picture-dog{
+    width: 100%;
+    height: 300px;
+   
+} */
 
 .causes .causes-item {
     margin: 0 15px;
@@ -904,7 +909,7 @@ a:focus {
 .causes .causes-progress {
     width: 100%;
     margin-top: 32px;
-    padding: 30px 30px 20px 30px;
+    padding: 14px 14px 10px 20px;
 }
 
 .causes .progress {
@@ -935,7 +940,7 @@ a:focus {
 
 .causes .progress-bar span::after {
     position: absolute;
-    content: "";
+    content: "";    
     width: 0;
     height: 0;
     top: 23px;
@@ -955,7 +960,7 @@ a:focus {
 }
 
 .causes .causes-text {
-    padding: 0 30px;
+    padding:  20px;
 }
 
 .causes .causes-text h3 {
@@ -965,6 +970,8 @@ a:focus {
 
 .causes .causes-text p {
     margin: 0;
+     padding-right: 10px;
+    /* font-size: 25px ; */
 }
 
 .causes .causes-btn {
@@ -1078,6 +1085,11 @@ a:focus {
     transform: scale(1.1);
     margin-bottom: -15px;
     transition: .3s;
+}
+
+.picture-dog2{
+     width: 100%;
+     height: 370px;
 }
 
 .team .team-item:hover img {
@@ -1311,6 +1323,10 @@ a:focus {
 .event .event-item img {
     width: 100%;
 }
+/* .picture-dog1{
+    width: 100%;
+    height: 500px;
+} */
 
 .event .event-content {
     padding: 30px;
@@ -1433,6 +1449,10 @@ a:focus {
 
 .blog .blog-img {
     width: 100%;
+}
+.picture-dog3{
+    width: 100%;
+    height: 300px;
 }
 
 .blog .blog-img img {
